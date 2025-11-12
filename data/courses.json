@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Building Small Language Model: From Foundations to Generation",
+        "description": "This course provides hands-on experience in building small language models. Students will learn the fundamentals of natural language processing, transformer architectures, and domain-specific model training.",
+        "image": "/assets/projects/slm.png",
+        "syllabus": {
+            "overview": "This course provides hands-on experience in building small language models specifically for Bangla financial text generation. Students will learn the fundamentals of natural language processing, transformer architectures, and domain-specific model training.",
+            "learningObjectives": [
+                "Explain the fundamental concepts of language models, their applications, and why small language models are important.",
+                "Implement efficient tokenization and binary data storage for high-performance training.",
+                "Understand and build the key components of a Transformer-based Small Language Model (SLM) from scratch in PyTorch",
+                "Mathematical understanding of Attention, Causal self-attention, Multi-head attention, AdamW optimizer and Position-wise Feed-Forward Networks",
+                "Train and optimize a 58M parameter Bangla language model, including learning rate scheduling, checkpointing, and evaluation"
+            ],
+            "prerequisites": [
+                "Basic knowledge of Python programming",
+                "Familiarity with neural networks",
+                "Basic statistics and linear algebra"
+            ],
+            "mainTopics": [
+                "What LMs are, real-world applications, and differences between SLMs and LLMs.",
+                "Data Preparation Pipeline and Bangla-specific tokenization challenges, and SentencePiece integration.",
+                "Binary storage formats, memory mapping, and metadata management for training.",
+                "Transformer foundations, embeddings, positional encodings, attention mechanisms, and GPT-style architecture",
+                "Feed-forward networks, transformer blocks, residual connections, and assembling the complete GPT model.",
+                "Hardware setup, optimizer configuration, learning rate schedules, training loop implementation, and gradient clipping.",
+                "Cross-entropy loss, validation monitoring, saving and loading models, autoregressive decoding, sampling methods and temperature tuning"
+            ]
+        }
+    }
+]
+

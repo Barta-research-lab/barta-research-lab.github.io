@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Bangla Trending Words Analytics Tool",
+        "description": "Language reflects the pulse of society. By tracking the most commonly used Bangla words in social media and news, we gain insight into what dominates public attention. Our tool captures trending words and phrases from digital platforms, revealing shifts in discourse over time. Through this lens, we explore how language mirrors evolving social concerns, public sentiment, and cultural trends—offering a data-driven snapshot of what matters most in contemporary Bangladeshi media.",
+        "owner": "Abhjit",
+        "status": "ongoing",
+        "type": "open source",
+        "github": "https://github.com/SiamRahman29/IMLI-Project",
+        "host": "https://example.com",
+        "image": "/assets/projects/trending_words.png"
+    },
+    {
+        "title": "Representation Discrimination",
+        "description": "Media portrayal shapes public perception. If a demographic is mostly shown in crime reports, people may associate them with crime. Our study on indigenous communities in Bangladesh reveals a bias: news highlights crime and culture but neglects critical issues like health, economy, and education. This selective coverage keeps their struggles invisible to the broader population.",
+        "owner": "Abhjit",
+        "status": "ongoing",
+        "type": "open source",
+        "github": "www.github.com",
+        "host": "https://example.com",
+        "image": "/assets/projects/BKMS.png"
+    },
+    {
+        "title": "Chakma Language Processing",
+        "description": "Due to limited digital resources and standardization, CLP faces challenges in script digitization, text processing, and speech recognition. Efforts are being made to digitize the language through NLP datasets, OCR models, and translation tools.",
+        "owner": "Adity, Lia, Nafis",
+        "status": "ongoing",
+        "type": "",
+        "github": "",
+        "host": "",
+        "image": "/assets/projects/chakma-mlm.png"
+    },
+    {
+        "title": "AI-Driven Insights for Alzheimer's and Dementia",
+        "description": "The research aims to explore the potential of utilizing community-driven data from the Alzheimer’s and Dementia subreddits to develop an AI-powered tool that could assist in diagnosing and managing Alzheimer’s disease. The project involves scraping extensive data from these subreddits, which includes user-generated content about symptoms, treatment experiences, and caregiving advice. This data will be used to pre-train a language model, enabling the development of a tool that can provide preliminary insights and suggestions to patients. The goal is to compare the AI-generated responses with real-life medical advice to assess the tool's effectiveness and explore its potential in supporting patients and caregivers in real-world scenarios.",
+        "owner": "Tumpa",
+        "status": "ongoing",
+        "type": "",
+        "github": "",
+        "host": "",
+        "image": "/assets/projects/dementia.webp"
+    },
+    {
+        "title": "Temporal Reasoning Ability of LLMs Using VoT Prompting",
+        "description": "The project explores Large Language Models' (LLMs) human-like temporal reasoning capabilities using the Visualization of Thought (VoT) prompting technique. Temporal reasoning is a key aspect of human intelligence that enables individuals to solve puzzles, conduct crime investigations, analyze detective cases, and engage in creative storytelling. Our study evaluates LLMs' temporal reasoning ability by prompting them to perform tasks that require such reasoning, leveraging the VoT prompting technique to enhance their performance and interpretability.",
+        "owner": "Kainat",
+        "status": "ongoing",
+        "type": "",
+        "github": "",
+        "host": "",
+        "image": "/assets/projects/BKMS.png"
+    },
+    
+    {
+        "title": "Bangla Sign Language Processing",
+        "description": "",
+        "owner": "Sharif",
+        "status": "ongoing",
+        "type": "",
+        "github": "",
+        "host": "",
+        "image": "https://greennetwork.asia/wp-content/uploads/2024/09/SIGN-LANG-ON-YELLOW-SPACE-1024x504.webp"
+    },
+    
+    {
+        "title": "Bangla NLP Knowledge Graph",
+        "description": "BNLP Knowledge Management Graph is an innovative effort to conceptualize and study the development of Bengali Natural Language Processing (NLP) research. The platform allows users to upload research papers, which are categorized and connected in a dynamic knowledge graph. With the combination of a simple interface and dynamic updates, the platform encourages collaboration and interaction within the academic community. It allows smooth surfing of core topics, research papers, and discussions, making it a handy tool for researchers and scholars in the Bengali NLP community.",
+        "owner": "Sabbir",
+        "status": "ongoing",
+        "type": "web app",
+        "github": "",
+        "host": "",
+        "image": "/assets/projects/BKMS.png"
+    }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "name": "Dr Ahmedul Kabir",
+    "workplace": "Institute of Information Technology, University of Dhaka",
+    "position": "Associate Professor",
+    "email": "kabir@iit.du.ac.bd",
+    "googleScholar": "https://scholar.google.com/citations?user=87fwkNAAAAAJ&hl=en",
+    "linkedin": "https://www.linkedin.com/in/ahmedul-kabir-90469134/",
+    "role": "Co-Director",
+    "image": "/assets/Meet_with_the_teams/Dr_Ahmedul_Kabir.jpg"
+  },
+  {
+    "name": "Shebuti Rayana",
+    "workplace": "Computer and Information Sciences, SUNY at Old Westbury, United States",
+    "position": "Assistant Professor",
+    "email": "rayanas@oldwestbury.edu",
+    "googleScholar": "https://scholar.google.com/citations?user=kAKUiukAAAAJ&hl=en",
+    "linkedin": "https://www.linkedin.com/in/shebuti-rayana-727a5641/",
+    "role": "Co-Director",
+    "image": "/assets/Meet_with_the_teams/Shebuty_Rayana.jpg"
+  },
+  {
+    "name": "Zarif Masud",
+    "workplace": "University of Toronto, Canada",
+    "position": "PhD Student",
+    "email": "zarif.masud@gmail.com",
+    "googleScholar": "https://scholar.google.com/citations?user=AjSsN60AAAAJ&hl=en",
+    "linkedin": "https://www.linkedin.com/in/zarifmasud/",
+    "role": "Mentor",
+    "image": "/assets/Meet_with_the_teams/Zarif_Masud.jpg"
+  },
+  {
+    "name": "Tanzir Pial",
+    "workplace": "Stony brook University, USA",
+    "position": "PhD in Computer Science",
+    "email": "tpial@cs.stonybrook.edu",
+    "googleScholar": "https://scholar.google.com/citations?user=YUcK9-MAAAAJ&hl=en",
+    "linkedin": "https://www.linkedin.com/in/tanzir-pial/",
+    "role": "Mentor",
+    "image": "/assets/Meet_with_the_teams/tanzir-pial.png"
+  },
+  {
+    "name": "Shubhashis Roy Dipta",
+    "workplace": "University of Maryland, Baltimore County (UMBC)",
+    "position": "Ph.D. Researcher in Computer Science",
+    "email": "sroydip1@umbc.edu",
+    "googleScholar": "https://scholar.google.com/citations?hl=en&user=j2ElsNIAAAAJ&view_op=list_works&sortby=pubdate",
+    "github": "https://github.com/dipta007",
+    "linkedin": "https://www.linkedin.com/in/dipta007",
+    "role": "Mentor",
+    "image": "/assets/Meet_with_the_teams/roy-dipta.png"
+  },
+  
+  {
+    "name": "Shahreen Salim",
+    "workplace": "Stony brook University, USA",
+    "position": "PhD in Computer Science",
+    "email": "ssalimaunti@cs.stonybrook.edu",
+    "googleScholar": "https://scholar.google.com/citations?user=FdDu_KMAAAAJ&hl=en",
+    "linkedin": "https://www.linkedin.com/in/shahreen-salim-15a783131/",
+    "role": "Mentor",
+    "image": "/assets/Meet_with_the_teams/salim.png"
+  },
+  
+  {
+    "name": "Nazifa Tasnim Hia",
+    "workplace": "Department of CSE, University of Liberal Arts Bangladesh (ULAB)",
+    "position": "Lecturer",
+    "email": "tasnimhia75@gmail.com",
+    "googleScholar": "https://scholar.google.com/citations?user=JbYe_s4AAAAJ&hl=en",
+    "linkedin": "https://www.linkedin.com/in/nazifa-tasnim-hia-59b7b8147",
+    "role": "Mentor",
+    "image": "/assets/Meet_with_the_teams/Nazifa_Tasnim_Hia.jpeg"
+  },
+  {
+    "name": "Abhijit Paul",
+    "workplace": "Samsung R&D Institute, Bangladesh",
+    "position": "Software Engineer",
+    "email": "bsse1201@iit.du.ac.bd",
+    "googleScholar": "https://scholar.google.com/citations?user=XpdyZrUAAAAJ&hl=en",
+    "github": "https://github.com/abj-paul",
+    "linkedin": "https://www.linkedin.com/in/abj-paul/",
+    "role": "Lead Researcher",
+    "image": "/assets/Meet_with_the_teams/Abhijit-Paul.jpeg"
+  },
+  {
+    "name": "Sharif Mohammad Abdullah",
+    "workplace": "IIT, University of Dhaka",
+    "position": "Undergrad Student",
+    "email": "bsse1211@iit.du.ac.bd",
+    "googleScholar": "https://www.researchgate.net/profile/Sharif-Mohammad-5",
+    "github": "https://github.com/SharifMAbdullah/",
+    "linkedin": "https://www.linkedin.com/in/sharifmabdullah/",
+    "role": "Undergrad Researcher",
+    "image": "/assets/Meet_with_the_teams/Sharif_Mohammad_Abdullah.jpg"
+  },
+  
+  {
+    "name": "Adity Khisa",
+    "workplace": "IIT, University of Dhaka",
+    "position": "Undergrad Student",
+    "email": "bsse1334@iit.du.ac.bd",
+    "googleScholar": "https://scholar.google.com/",
+    "github": "https://github.com/adity1234567",
+    "linkedin": "https://linkedin.com/in/adity-khisa-ab4188309",
+    "role": "Undergrad Researcher",
+    "image": "/assets/Meet_with_the_teams/1334_adity.jpg"
+  },
+  {
+    "name": "Nusrat Jahan Lia",
+    "workplace": "IIT, University of Dhaka",
+    "position": "Undergrad Student",
+    "email": "bsse1306@iit.du.ac.bd",
+    "googleScholar": "https://scholar.google.com/citations?user=c2tTr4UAAAAJ&hl=en",
+    "github": "https://github.com/NusRAT-LiA",
+    "linkedin": "https://www.linkedin.com/in/nusrat-jahan-lia-608655229/",
+    "role": "Undergrad Researcher",
+    "image": "/assets/Meet_with_the_teams/1306.jpg"
+  },
+  {
+    "name": "Umme Kulsum Tumpa",
+    "workplace": "IIT, University of Dhaka",
+    "position": "Undergrad Student",
+    "email": "bsse1307@iit.du.ac.bd",
+    "googleScholar": "https://scholar.google.com/",
+    "github": "https://github.com/UmmeKulsumTumpa",
+    "linkedin": "https://www.linkedin.com/in/umme-kulsum-tumpa-082245288",
+    "role": "Undergrad Researcher",
+    "image": "/assets/Meet_with_the_teams/1307.jpeg"
+  },
+  {
+    "name": "Rony Majumder",
+    "workplace": "IIT, University of Dhaka",
+    "position": "Undergrad Student",
+    "email": "bsse1325@iit.du.ac.bd",
+    "googleScholar": "https://scholar.google.com/",
+    "github": "https://github.com/rony31416",
+    "linkedin": "https://www.linkedin.com/in/rony-majumder-7064332a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "role": "Undergrad Researcher",
+    "image": "/assets/Meet_with_the_teams/1325.jpg"
+  },
+  {
+    "name": "Md. Sabbir Hosen",
+    "workplace": "IIT, University of Dhaka",
+    "position": "Undergrad Student",
+    "email": "bsse1333@iit.du.ac.bd",
+    "googleScholar": "https://scholar.google.com/",
+    "github": "https://github.com/Sabbir-Asif",
+    "linkedin": "https://www.linkedin.com/in/sabbir-hosen-2a35b02b0/",
+    "role": "Undergrad Researcher",
+    "image": "/assets/Meet_with_the_teams/Sabbir_Hosen.jpeg"
+  },
+  {
+    "name": "Kainat Raisa Hossain",
+    "workplace": "IER, University of Dhaka",
+    "position": "Data Science Intern, Markopolo.ai",
+    "email": "kainatraisa@gmail.com",
+    "googleScholar": "https://scholar.google.com/",
+    "github": "https://github.com/Kainat-raisa21",
+    "linkedin": "https://www.linkedin.com/in/kainat-raisa/",
+    "role": "Undergrad Researcher",
+    "image": "/assets/Meet_with_the_teams/Kainat.jpg"
+  },
+  {
+    "name": "Tanvir Hasan Abir",
+    "workplace": "IIT, University of Dhaka",
+    "position": "Undergrad Student",
+    "email": "bsse1321@iit.du.ac.bd",
+    "googleScholar": "https://scholar.google.com/",
+    "github": "https://github.com/thabir303",
+    "linkedin": "https://www.linkedin.com/in/tanvir-hasan-abir-30219b264",
+    "role": "Undergrad Researcher",
+    "image": "/assets/Meet_with_the_teams/1321.png"
+  },
+  {
+    "name": "Siam Rahman",
+    "workplace": "AskTuring AI",
+    "position": "Full Stack Engineer",
+    "email": "siam@graduate.utm.my",
+    "googleScholar": "https://scholar.google.com/",
+    "github": "https://github.com/SiamRahman29",
+    "linkedin": "https://www.linkedin.com/in/siamrahman-29/",
+    "role": "Undergrad Researcher",
+    "image": "/assets/Meet_with_the_teams/Siam_Rahman.jpeg"
+  },
+  {
+    "name": "Mashiat Amin Farin",
+    "workplace": "University of Texas at Dallas",
+    "position": "PhD Student",
+    "email": "bsse1202@iit.du.ac.bd",
+    "googleScholar": "https://scholar.google.com/citations?user=aAbjRNMAAAAJ&hl=en",
+    "linkedin": "https://www.linkedin.com/in/mashiataminfarin/",
+    "role": "Alumni",
+    "image": "/assets/Meet_with_the_teams/Mashiat_Amin_Farin.jpg"
+  },
+  {
+    "name": "Sampad Shikdar",
+    "workplace": "Brain Station Ltd.",
+    "position": "Blockchain Engineer",
+    "email": "bsse1202@iit.du.ac.bd",
+    "googleScholar": "https://scholar.google.com/",
+    "linkedin": "https://www.linkedin.com/in/mashiataminfarin/",
+    "role": "Alumni",
+    "image": "/assets/Meet_with_the_teams/sampad.png"
+  }
+]
