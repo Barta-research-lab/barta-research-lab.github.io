@@ -40,6 +40,16 @@
     "image": "/assets/Meet_with_the_teams/tanzir-pial.png"
   },
   {
+    "name": "Md Shahrar Fatemi",
+    "workplace": "Stony Brook University, New York, USA",
+    "position": "PhD Student in Computer Science",
+    "email": "mdshahrar.fatemi@stonybrook.edu",
+    "googleScholar": "https://scholar.google.com/citations?user=hS6TmN8AAAAJ&hl=en",
+    "linkedin": "https://www.linkedin.com/in/md-shahrar-fatemi-9b7977141/",
+    "role": "Mentor",
+    "image": "/assets/Meet_with_the_teams/shahrar.jpeg"
+  },
+  {
     "name": "Shubhashis Roy Dipta",
     "workplace": "University of Maryland, Baltimore County (UMBC)",
     "position": "Ph.D. Researcher in Computer Science",
