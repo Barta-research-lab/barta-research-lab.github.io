@@ -6,19 +6,16 @@
         "status": "ongoing",
         "type": "open source",
         "github": "https://github.com/SiamRahman29/IMLI-Project",
-        "host": "https://example.com",
         "image": "/assets/projects/trending_words.png"
     },
     {
-        "title": "Representation Discrimination",
-        "description": "Media portrayal shapes public perception. If a demographic is mostly shown in crime reports, people may associate them with crime. Our study on indigenous communities in Bangladesh reveals a bias: news highlights crime and culture but neglects critical issues like health, economy, and education. This selective coverage keeps their struggles invisible to the broader population.",
-        "owner": "Abhjit",
+        "title": "AI-Driven Insights for Alzheimer's and Dementia",
+        "description": "The research aims to explore the potential of utilizing community-driven data from the Alzheimer’s and Dementia subreddits to develop an AI-powered tool that could assist in diagnosing and managing Alzheimer’s disease. The project involves scraping extensive data from these subreddits, which includes user-generated content about symptoms, treatment experiences, and caregiving advice. This data will be used to pre-train a language model, enabling the development of a tool that can provide preliminary insights and suggestions to patients. The goal is to compare the AI-generated responses with real-life medical advice to assess the tool's effectiveness and explore its potential in supporting patients and caregivers in real-world scenarios.",
+        "owner": "Tumpa",
         "status": "ongoing",
-        "type": "open source",
-        "github": "www.github.com",
-        "host": "https://example.com",
-        "image": "/assets/projects/BKMS.png"
+        "image": "/assets/projects/bdml.jpeg"
     },
+    
     {
         "title": "Chakma Language Processing",
         "description": "Due to limited digital resources and standardization, CLP faces challenges in script digitization, text processing, and speech recognition. Efforts are being made to digitize the language through NLP datasets, OCR models, and translation tools.",
@@ -30,15 +27,13 @@
         "image": "/assets/projects/chakma-mlm.png"
     },
     {
-        "title": "AI-Driven Insights for Alzheimer's and Dementia",
-        "description": "The research aims to explore the potential of utilizing community-driven data from the Alzheimer’s and Dementia subreddits to develop an AI-powered tool that could assist in diagnosing and managing Alzheimer’s disease. The project involves scraping extensive data from these subreddits, which includes user-generated content about symptoms, treatment experiences, and caregiving advice. This data will be used to pre-train a language model, enabling the development of a tool that can provide preliminary insights and suggestions to patients. The goal is to compare the AI-generated responses with real-life medical advice to assess the tool's effectiveness and explore its potential in supporting patients and caregivers in real-world scenarios.",
-        "owner": "Tumpa",
+        "title": "Representation Discrimination",
+        "description": "Media portrayal shapes public perception. If a demographic is mostly shown in crime reports, people may associate them with crime. Our study on indigenous communities in Bangladesh reveals a bias: news highlights crime and culture but neglects critical issues like health, economy, and education. This selective coverage keeps their struggles invisible to the broader population.",
+        "owner": "Abhjit",
         "status": "ongoing",
-        "type": "",
-        "github": "",
-        "host": "",
-        "image": "/assets/projects/dementia.webp"
+        "image": "/assets/projects/BKMS.png"
     },
+    
     {
         "title": "Temporal Reasoning Ability of LLMs Using VoT Prompting",
         "description": "The project explores Large Language Models' (LLMs) human-like temporal reasoning capabilities using the Visualization of Thought (VoT) prompting technique. Temporal reasoning is a key aspect of human intelligence that enables individuals to solve puzzles, conduct crime investigations, analyze detective cases, and engage in creative storytelling. Our study evaluates LLMs' temporal reasoning ability by prompting them to perform tasks that require such reasoning, leveraging the VoT prompting technique to enhance their performance and interpretability.",

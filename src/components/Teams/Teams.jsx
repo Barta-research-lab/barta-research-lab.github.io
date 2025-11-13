@@ -20,9 +20,35 @@ const Teams = () => {
             .catch((error) => console.error("Error fetching teams:", error));
     }, []);
 
+    // Helper function to get roles from member (supports both role and roles)
+    const getMemberRoles = (member) => {
+        if (member.roles && Array.isArray(member.roles)) {
+            return member.roles;
+        }
+        return member.role ? [member.role] : [];
+    };
+
+    // Helper function to get primary role for filtering/grouping
+    const getPrimaryRole = (member) => {
+        const roles = getMemberRoles(member);
+        // Return the first role, or empty string if no roles
+        return roles.length > 0 ? roles[0] : '';
+    };
+
     const filterRoles = () => {
-        const uniqueRoles = ['All', ...new Set(teams.map(member => member.role))];
-        return uniqueRoles;
+        const allRoles = new Set();
+        teams.forEach(member => {
+            const roles = getMemberRoles(member);
+            roles.forEach(role => {
+                // Combine Lead Researcher and Undergrad Researcher under "Researchers"
+                if (role === 'Lead Researcher' || role === 'Undergrad Researcher') {
+                    allRoles.add('Researchers');
+                } else {
+                    allRoles.add(role);
+                }
+            });
+        });
+        return ['All', ...Array.from(allRoles)];
     };
 
     const handleFilterChange = (role) => {
@@ -30,7 +56,16 @@ const Teams = () => {
         if (role === 'All') {
             setFilteredTeams(teams);
         } else {
-            setFilteredTeams(teams.filter(member => member.role === role));
+            setFilteredTeams(teams.filter(member => {
+                const memberRoles = getMemberRoles(member);
+                return memberRoles.some(mr => {
+                    // Handle Researchers grouping
+                    if (role === 'Researchers') {
+                        return mr === 'Lead Researcher' || mr === 'Undergrad Researcher';
+                    }
+                    return mr === role;
+                });
+            }));
         }
     };
 
@@ -38,9 +73,10 @@ const Teams = () => {
     const groupTeamsByRole = (teamList) => {
         const grouped = {};
         teamList.forEach(member => {
+            const primaryRole = getPrimaryRole(member);
             // Combine Lead Researcher and Undergrad Researcher under "Researchers"
-            let displayRole = member.role;
-            if (member.role === 'Lead Researcher' || member.role === 'Undergrad Researcher') {
+            let displayRole = primaryRole;
+            if (primaryRole === 'Lead Researcher' || primaryRole === 'Undergrad Researcher') {
                 displayRole = 'Researchers';
             }
             

@@ -12,8 +12,12 @@ const TeamCard = ({ member }) => {
         github,
         linkedin,
         role,
+        roles,
         image
     } = member;
+
+    // Support both single role (string) and multiple roles (array) for backward compatibility
+    const memberRoles = roles || (role ? [role] : []);
 
     return (
         <div className="bg-white rounded-lg border-2 p-2 border-green-primary overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 flex flex-col h-full">
@@ -31,7 +35,19 @@ const TeamCard = ({ member }) => {
             <div className="p-5 flex-grow flex flex-col">
                 <div className="mb-2">
                     <h3 className="text-xl font-bold font-nunito text-gray-800">{name}</h3>
-                    <p className="text-green-primary font-semibold">{role}</p>
+                    {memberRoles.length > 0 && (
+                        <div className="flex flex-wrap gap-1.5 mt-1">
+                            {memberRoles.map((r, index) => (
+                                <span 
+                                    key={index}
+                                    className="text-green-primary font-semibold text-sm"
+                                >
+                                    {r}
+                                    {index < memberRoles.length - 1 && <span className="mx-1">•</span>}
+                                </span>
+                            ))}
+                        </div>
+                    )}
                 </div>
                 
                 <div className="text-gray-600 text-sm mb-4 flex-grow">

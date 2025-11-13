@@ -1,8 +1,32 @@
 import React from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { FaFacebook, FaTwitter, FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
   const currentYear = new Date().getFullYear();
+
+  const handleLinkClick = (sectionId) => {
+    if (location.pathname !== '/') {
+      navigate('/');
+      setTimeout(() => {
+        const element = document.getElementById(sectionId);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    } else {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  };
+
+  const handleEventsClick = () => {
+    navigate('/events');
+  };
   
   return (
     <footer className="bg-green-primary text-cream-primary font-nunito">
@@ -22,11 +46,11 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold mb-4 text-cream-primary opacity-80">Quick Links</h3>
           <div className="grid grid-cols-2 mt-4">
-            <a href="#goal" className="opacity-80 hover:opacity-100 transition-opacity duration-200">Research</a>
-            <a href="#publications" className="opacity-80 hover:opacity-100 transition-opacity duration-200">Publications</a>
-            <a href="#teams" className="opacity-80 hover:opacity-100 transition-opacity duration-200">Our Team</a>
-            <a href="#projects" className="opacity-80 hover:opacity-100 transition-opacity duration-200">Projects</a>
-            <a href="#events" className="opacity-80 hover:opacity-100 transition-opacity duration-200">Events</a>
+            <button onClick={() => handleLinkClick('goal')} className="opacity-80 hover:opacity-100 transition-opacity duration-200 text-left">Research</button>
+            <button onClick={() => handleLinkClick('publications')} className="opacity-80 hover:opacity-100 transition-opacity duration-200 text-left">Publications</button>
+            <button onClick={() => handleLinkClick('teams')} className="opacity-80 hover:opacity-100 transition-opacity duration-200 text-left">Our Team</button>
+            <button onClick={() => handleLinkClick('projects')} className="opacity-80 hover:opacity-100 transition-opacity duration-200 text-left">Projects</button>
+            <button onClick={handleEventsClick} className="opacity-80 hover:opacity-100 transition-opacity duration-200 text-left">Events</button>
           </div>
         </div>
         

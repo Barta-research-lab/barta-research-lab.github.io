@@ -16,22 +16,26 @@ const PublicationCard = ({ publication }) => {
                 </p>
             )}
             <div className="flex flex-wrap gap-3 mt-6">
-                <a
-                    href={publication.pdf}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-sm px-3 py-1 bg-green-primary text-white hover:bg-green-dark rounded-md font-medium flex items-center"
-                >
-                    View Pdf
-                </a>
-                <a
-                    href={publication.code}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-sm px-3 py-1 bg-gray-50 text-green-primary hover:text-green-dark rounded-md font-medium border-2 border-green-primary"
-                >
-                    View Code
-                </a>
+                {publication.pdf && (
+                    <a
+                        href={publication.pdf}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm px-3 py-1 bg-green-primary text-white hover:bg-green-dark rounded-md font-medium flex items-center"
+                    >
+                        View Pdf
+                    </a>
+                )}
+                {publication.code && (
+                    <a
+                        href={publication.code}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm px-3 py-1 bg-gray-50 text-green-primary hover:text-green-dark rounded-md font-medium border-2 border-green-primary"
+                    >
+                        View Code
+                    </a>
+                )}
             </div>
         </div>
     );

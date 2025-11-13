@@ -1,9 +1,28 @@
+import { useNavigate, useLocation } from "react-router-dom";
+
 const Navbar = () => {
+    const navigate = useNavigate();
+    const location = useLocation();
+
     const scrollToSection = (sectionId) => {
-        const element = document.getElementById(sectionId);
-        if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
+        if (location.pathname !== '/') {
+            navigate('/');
+            setTimeout(() => {
+                const element = document.getElementById(sectionId);
+                if (element) {
+                    element.scrollIntoView({ behavior: 'smooth' });
+                }
+            }, 100);
+        } else {
+            const element = document.getElementById(sectionId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
         }
+    };
+
+    const handleEventsClick = () => {
+        navigate('/events');
     };
 
     return (
@@ -38,11 +57,22 @@ const Navbar = () => {
                             <li><button onClick={() => scrollToSection('publications')}>Publications</button></li>
                             <li><button onClick={() => scrollToSection('courses')}>Courses</button></li>
                             <li><button onClick={() => scrollToSection('projects')}>Ongoing Projects</button></li>
+                            <li><button onClick={handleEventsClick}>Events</button></li>
                             <li><button onClick={() => scrollToSection('teams')}>Our Team</button></li>
                         </ul>
                     </div>
-                    <img src="/logo/barta.png" alt="BARTA Logo" className="h-10 w-auto" />
-                    <a className="text-4xl font-ruhi text-black font-bold">BARTA</a>
+                    <img 
+                        src="/logo/barta.png" 
+                        alt="BARTA Logo" 
+                        className="h-10 w-auto cursor-pointer" 
+                        onClick={() => navigate('/')}
+                    />
+                    <a 
+                        className="text-4xl font-ruhi text-black font-bold cursor-pointer"
+                        onClick={() => navigate('/')}
+                    >
+                        BARTA
+                    </a>
                 </div>
                 <div className="hidden navbar-center lg:flex md:flex-grow lg:justify-center">
                     <ul className="menu menu-horizontal space-x-6 text-black font-semibold text-xl font-nunito">
@@ -50,6 +80,7 @@ const Navbar = () => {
                         <li><button onClick={() => scrollToSection('publications')} className="hover:text-green-primary">Publications</button></li>
                         <li><button onClick={() => scrollToSection('courses')} className="hover:text-green-primary">Courses</button></li>
                         <li><button onClick={() => scrollToSection('projects')} className="hover:text-green-primary">Ongoing Projects</button></li>
+                        <li><button onClick={handleEventsClick} className="hover:text-green-primary">Events</button></li>
                         <li><button onClick={() => scrollToSection('teams')} className="hover:text-green-primary">Our Team</button></li>
                     </ul>
                 </div>

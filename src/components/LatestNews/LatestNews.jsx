@@ -1,11 +1,18 @@
 const LatestNews = () => {
   const news = [
     {
-      id: 1,
-      title: "Paper Accepted at AACL 2025",
-      date: "2025-10-15",
+      id: 10,
+      title: "Paper Accepted at Big Data & ML in Healthcare 2025",
+      date: "2025-11-12",
       category: "Publication",
-      summary: "BARTA Research Lab's paper \"Exploring Cross-Lingual Knowledge Transfer via Transliteration-Based MLM Fine-Tuning for Critically Low-resource Chakma Language\" has been accepted to BLP at AACL 2025."
+      summary: "BARTA Research Lab's paper \"Voices of Care: Actor-Centric Analysis of Alzheimer's and Dementia Discourse on Reddit\" by Umme Kulsum Tumpa, Nazifa Tasnim Hia, Md Shahrar Fatemi, Dr. Md. Mahbubul Alam Joarder, and Dr.Shebuti Rayana has been accepted to IEEE Workshop on Big Data & ML in Healthcare: Emerging Challenges (BDML 2025)."
+    },
+    {
+      id: 1,
+      title: "Paper Accepted to BLP at AACL 2025",
+      date: "2025-11-05",
+      category: "Publication",
+      summary: "BARTA Research Lab's paper \"Exploring Cross-Lingual Knowledge Transfer via Transliteration-Based MLM Fine-Tuning for Critically Low-resource Chakma Language\" by Adity Khisa, Nusrat Jahan Lia, Tasnim Mahfuz Nafis, Zarif Masud, Tanzir Pial, Dr. Shebuti Rayana, and Dr. Ahmedul Kabir has been accepted to BLP at AACL 2025."
     },
     {
       id: 2,
