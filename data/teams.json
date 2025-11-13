@@ -31,12 +31,12 @@
   },
   {
     "name": "Tanzir Pial",
-    "workplace": "Stony brook University, USA",
-    "position": "PhD in Computer Science",
+    "workplace": "Meta",
+    "position": "PhD in Computer Science, Stony Brook University (2025)",
     "email": "tpial@cs.stonybrook.edu",
     "googleScholar": "https://scholar.google.com/citations?user=YUcK9-MAAAAJ&hl=en",
     "linkedin": "https://www.linkedin.com/in/tanzir-pial/",
-    "role": "Mentor",
+    "roles": ["Mentor", "Research Scientist, Meta"],
     "image": "/assets/Meet_with_the_teams/tanzir-pial.png"
   },
   {
