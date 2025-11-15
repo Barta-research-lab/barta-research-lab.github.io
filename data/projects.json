@@ -1,8 +1,8 @@
 [
     {
         "title": "Bangla Trending Words Analytics Tool",
-        "description": "Language reflects the pulse of society. By tracking the most commonly used Bangla words in social media and news, we gain insight into what dominates public attention. Our tool captures trending words and phrases from digital platforms, revealing shifts in discourse over time. Through this lens, we explore how language mirrors evolving social concerns, public sentiment, and cultural trends—offering a data-driven snapshot of what matters most in contemporary Bangladeshi media.",
-        "owner": "Abhjit",
+        "description": "Language reflects the pulse of society. By tracking the most commonly used Bangla words in social media and news, we gain insight into what dominates public attention. Our tool captures trending words and phrases from digital platforms, revealing shifts in discourse over time. Through this lens, we explore how language mirrors evolving social concerns, public sentiment, and cultural trends—offering a data-driven snapshot of what matters most in contemporary Bangladeshi media. It is currently being utilized by International Mother Language Institute (IMLI).",
+        "owner": "Abir, Siam",
         "status": "ongoing",
         "type": "open source",
         "github": "https://github.com/SiamRahman29/IMLI-Project",

@@ -49,17 +49,6 @@
     "role": "Mentor",
     "image": "/assets/Meet_with_the_teams/shahrar.jpeg"
   },
-  {
-    "name": "Shubhashis Roy Dipta",
-    "workplace": "University of Maryland, Baltimore County (UMBC)",
-    "position": "Ph.D. Researcher in Computer Science",
-    "email": "sroydip1@umbc.edu",
-    "googleScholar": "https://scholar.google.com/citations?hl=en&user=j2ElsNIAAAAJ&view_op=list_works&sortby=pubdate",
-    "github": "https://github.com/dipta007",
-    "linkedin": "https://www.linkedin.com/in/dipta007",
-    "role": "Mentor",
-    "image": "/assets/Meet_with_the_teams/roy-dipta.png"
-  },
   
   {
     "name": "Shahreen Salim",
@@ -81,6 +70,17 @@
     "linkedin": "https://www.linkedin.com/in/nazifa-tasnim-hia-59b7b8147",
     "role": "Mentor",
     "image": "/assets/Meet_with_the_teams/Nazifa_Tasnim_Hia.jpeg"
+  },
+  {
+    "name": "Shubhashis Roy Dipta",
+    "workplace": "University of Maryland, Baltimore County (UMBC)",
+    "position": "Ph.D. Researcher in Computer Science",
+    "email": "sroydip1@umbc.edu",
+    "googleScholar": "https://scholar.google.com/citations?hl=en&user=j2ElsNIAAAAJ&view_op=list_works&sortby=pubdate",
+    "github": "https://github.com/dipta007",
+    "linkedin": "https://www.linkedin.com/in/dipta007",
+    "role": "Mentor",
+    "image": "/assets/Meet_with_the_teams/roy-dipta.png"
   },
   {
     "name": "Abhijit Paul",
