@@ -1,6 +1,13 @@
 const LatestNews = () => {
   const news = [
     {
+      id: 12,
+      title: "Dr. Kabir speaks at National Defence College",
+      date: "2025-11-05",
+      category: "Conference",
+      summary: "Our Co-Director Dr. Ahmedul Kabir delivered an invited lecture on \"Artificial Intelligence: Concepts, Applications and Global Trends\" at the National Defence College, Dhaka."
+    },
+    {
       id: 10,
       title: "Paper Accepted at Big Data & ML in Healthcare 2025",
       date: "2025-11-12",
@@ -13,6 +20,13 @@ const LatestNews = () => {
       date: "2025-11-05",
       category: "Publication",
       summary: "BARTA Research Lab's paper \"Exploring Cross-Lingual Knowledge Transfer via Transliteration-Based MLM Fine-Tuning for Critically Low-resource Chakma Language\" by Adity Khisa, Nusrat Jahan Lia, Tasnim Mahfuz Nafis, Zarif Masud, Tanzir Pial, Dr. Shebuti Rayana, and Dr. Ahmedul Kabir has been accepted to BLP at AACL 2025."
+    },
+    {
+      id: 11,
+      title: "IMLI Adopts BARTA's Bangla Trending Words Analytics Tool",
+      date: "2025-09-14",
+      category: "Collaboration",
+      summary: "International Mother Language Institute (IMLI) has started using BARTA Research Lab's Bangla Trending Words Analytics Tool to track and analyze trending words used in Bangla print and social media."
     },
     {
       id: 2,
@@ -81,13 +95,18 @@ const LatestNews = () => {
     return new Date(dateString).toLocaleDateString('en-US', options);
   };
 
+  // Sort news by date in descending order (most recent first)
+  const sortedNews = [...news].sort((a, b) => {
+    return new Date(b.date) - new Date(a.date);
+  });
+
   return (
     <section className="">
       <div className="container mx-auto px-4">
         <h2 className="text-2xl font-medium text-gray-800">Latest News</h2>
         
         <ul className="divide-y divide-gray-200">
-          {news.map((item) => (
+          {sortedNews.map((item) => (
             <li key={item.id} className="py-2 lg:py-4">
               <div className="flex flex-col">
                 <div className="flex items-center text-sm mb-1">
