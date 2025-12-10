@@ -1,6 +1,20 @@
 const LatestNews = () => {
   const news = [
     {
+      id: 14,
+      title: "Dr. Ahmedul Kabir Presents at IMLI International Seminar",
+      date: "2025-11-25",
+      category: "Conference",
+      summary: "Our Co-Director Dr. Ahmedul Kabir presented an article on \"The use of AI for Language Documentation\" at the International Seminar of International Mother Language Institute (IMLI)."
+    },
+    {
+      id: 13,
+      title: "Paper Presented at Big Data & ML in Healthcare 2025",
+      date: "2025-12-09",
+      category: "Publication",
+      summary: "BARTA Research Lab's paper \"Voices of Care: Actor-Centric Analysis of Alzheimer's and Dementia Discourse on Reddit\" by Umme Kulsum Tumpa, Nazifa Tasnim Hia, Md Shahrar Fatemi, Dr. Md. Mahbubul Alam Joarder, and Dr.Shebuti Rayana has been Presented to IEEE Workshop on Big Data & ML in Healthcare: Emerging Challenges (BDML 2025)."
+    },
+    {
       id: 12,
       title: "Dr. Kabir speaks at National Defence College",
       date: "2025-11-05",
