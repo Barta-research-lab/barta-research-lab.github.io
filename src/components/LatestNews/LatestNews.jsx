@@ -2,7 +2,7 @@ const LatestNews = () => {
   const news = [
     {
        id: 15,
-      title: "MeLLM 2026 — 'Breaking the Silence' Accepted: A Dataset and Benchmark for Bangla Text-to-Gloss Translation",
+      title: "Paper Accepted to MeLLM 2026",
       date: "2026-05-02",
       category: "Publication",
       summary: "BARTA Research Lab's paper \"Breaking the Silence: A Dataset and Benchmark for Bangla Text-to-Gloss Translation\" (Sharif Mohammad Abdullah, Abhijit Paul, Shubhashis Roy Dipta, Zarif Masud, Shebuti Rayana, Ahmedul Kabir) was accepted to MeLLM 2026 (arXiv v3, 2026-05-02)."
