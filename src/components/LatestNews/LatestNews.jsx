@@ -1,11 +1,11 @@
 const LatestNews = () => {
   const news = [
     {
-      id: 14,
-      title: "Dr. Ahmedul Kabir Presents at IMLI International Seminar",
-      date: "2025-11-25",
-      category: "Conference",
-      summary: "Our Co-Director Dr. Ahmedul Kabir presented an article on \"The use of AI for Language Documentation\" at the International Seminar of International Mother Language Institute (IMLI)."
+      id: 15,
+      title: "Paper Accepted to MeLLM 2026",
+      date: "2026-05-02",
+      category: "Publication",
+      summary: "BARTA Research Lab's paper \"Breaking the Silence: A Dataset and Benchmark for Bangla Text-to-Gloss Translation\" by Sharif Mohammad Abdullah, Abhijit Paul, Shubhashis Roy Dipta, Zarif Masud, Shebuti Rayana, and Ahmedul Kabir has been accepted to MeLLM 2026 (arXiv v3, 2026-05-02)."
     },
     {
       id: 13,

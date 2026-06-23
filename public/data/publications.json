@@ -72,5 +72,15 @@
         "pdf": "https://arxiv.org/abs/2307.16878",
         "description": "Collected a dataset of coping mechanisms across culture for Gen-Z and Gen-Alpha age group. The findings provided interesting insight on the types of coping mechanism."
     }
-    
+    ,
+    {
+        "id": 9,
+        "year": 2026,
+        "date": "2026-05-02",
+        "title": "Breaking the Silence: A Dataset and Benchmark for Bangla Text-to-Gloss Translation",
+        "authors": "Sharif Mohammad Abdullah, Abhijit Paul, Shubhashis Roy Dipta, Zarif Masud, Shebuti Rayana, Ahmedul Kabir",
+        "publishedIn": "Accepted to MeLLM 2026 (arXiv v3, 2026-05-02)",
+        "pdf": "https://arxiv.org/pdf/2504.02293",
+        "description": "We introduce the first Bangla text-to-gloss dataset: 1,000 manually annotated and 4,000 synthetically generated sentence–gloss pairs, with 159 expert-annotated test pairs. We benchmark several fine-tuned open-source models against a leading closed-source LLM; GPT-5.4 attains the best automatic scores, a fine-tuned mBART model performs competitively despite much smaller size, and Qwen-3 ranks highest in human evaluation. The work demonstrates the effectiveness of systematically generated synthetic data for low-resource Bangla Sign Language translation and releases the dataset and trained models to accelerate future research."
+    }
 ]
