@@ -1,6 +1,14 @@
 const LatestNews = () => {
   const news = [
     {
+       id: 15,
+      title: "MeLLM 2026 — 'Breaking the Silence' Accepted: A Dataset and Benchmark for Bangla Text-to-Gloss Translation",
+      date: "2026-05-02",
+      category: "Publication",
+      summary: "BARTA Research Lab's paper \"Breaking the Silence: A Dataset and Benchmark for Bangla Text-to-Gloss Translation\" (Sharif Mohammad Abdullah, Abhijit Paul, Shubhashis Roy Dipta, Zarif Masud, Shebuti Rayana, Ahmedul Kabir) was accepted to MeLLM 2026 (arXiv v3, 2026-05-02)."
+    },
+    
+    {
       id: 14,
       title: "Dr. Ahmedul Kabir Presents at IMLI International Seminar",
       date: "2025-11-25",
@@ -12,7 +20,7 @@ const LatestNews = () => {
       title: "Paper Presented at Big Data & ML in Healthcare 2025",
       date: "2025-12-09",
       category: "Publication",
-      summary: "BARTA Research Lab's paper \"Voices of Care: Actor-Centric Analysis of Alzheimer's and Dementia Discourse on Reddit\" by Umme Kulsum Tumpa, Nazifa Tasnim Hia, Md Shahrar Fatemi, Dr. Md. Mahbubul Alam Joarder, and Dr.Shebuti Rayana has been Presented to IEEE Workshop on Big Data & ML in Healthcare: Emerging Challenges (BDML 2025)."
+      summary: "Paper Presented at Big Data & ML in Healthcare 2025 — BARTA Research Lab's paper \"Voices of Care: Actor-Centric Analysis of Alzheimer's and Dementia Discourse on Reddit\" by Umme Kulsum Tumpa, Nazifa Tasnim Hia, Md Shahrar Fatemi, Dr. Md. Mahbubul Alam Joarder, and Dr. Shebuti Rayana was presented at the IEEE Workshop on Big Data & ML in Healthcare: Emerging Challenges (BDML 2025)."
     },
     {
       id: 12,
