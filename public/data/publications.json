@@ -1,6 +1,17 @@
 [
-    {
+      {
         "id": 1,
+        "year": 2026,
+        "date": "2026-05-02",
+        "title": "Breaking the Silence: A Dataset and Benchmark for Bangla Text-to-Gloss Translation",
+        "authors": "Sharif Mohammad Abdullah, Abhijit Paul, Shubhashis Roy Dipta, Zarif Masud, Shebuti Rayana, Ahmedul Kabir",
+        "publishedIn": "Accepted to MeLLM 2026 (arXiv v3, 2026-05-02)",
+        "pdf": "https://arxiv.org/pdf/2504.02293",
+        "description": "We introduce the first Bangla text-to-gloss dataset: 1,000 manually annotated and 4,000 synthetically generated sentence–gloss pairs, with 159 expert-annotated test pairs. We benchmark several fine-tuned open-source models against a leading closed-source LLM; GPT-5.4 attains the best automatic scores, a fine-tuned mBART model performs competitively despite much smaller size, and Qwen-3 ranks highest in human evaluation. The work demonstrates the effectiveness of systematically generated synthetic data for low-resource Bangla Sign Language translation and releases the dataset and trained models to accelerate future research."
+    },
+
+    {
+        "id": 2,
         "year": 2025,
         "title": "Voices of Care: Actor-Centric Analysis of Alzheimer’s and Dementia Discourse on Reddit",
         "authors": "Umme Kulsum Tumpa, Nazifa Tasnim Hia , Md Shahrar Fatemi, Md. Mahbubul Alam Joarder, Shebuti Rayana",
@@ -9,7 +20,7 @@
         "description": "Our study explores how caregivers, patients and community members discuss Alzheimer’s and dementia on Reddit. By analyzing these real-life conversations, we aimed to understand the emotional and practical challenges that caregivers face and why online spaces have become sources of shared learning, empathy, and support. We also examined some patient-related demographics through the caregivers’ narratives to learn how patients’ symptoms differ across these demographics."
     },
     {
-        "id": 2,
+        "id": 3,
         "year": 2025,
         "title": "Exploring Cross-Lingual Knowledge Transfer via Transliteration-Based MLM Fine-Tuning for Critically Low-resource Chakma Language",
         "authors": "Adity Khisa, Nusrat Jahan Lia, Tasnim Mahfuz Nafis, Zarif Masud, Tanzir Pial, Shebuti Rayana, Ahmedul Kabir",
@@ -18,7 +29,7 @@
         "description": "As an Indo-Aryan language with limited available data, Chakma remains largely underrepresented in language models. In this work, we introduce a novel corpus of contextually coherent Bangla-transliterated Chakma, curated from Chakma literature, and validated by native speakers. Using this dataset, we fine-tune six encoder-based multilingual and regional transformer models (mBERT, XLM-RoBERTa, DistilBERT, DeBERTaV3, BanglaBERT, and IndicBERT) on masked language modeling (MLM) tasks. Our experiments show that fine-tuned multilingual models outperform their pre-trained counterparts when adapted to Bangla-transliterated Chakma, achieving up to 73.54% token accuracy and a perplexity as low as 2.90."
     },
     {
-        "id": 3,
+        "id": 4,
         "year": 2025,
         "title": "Temporal Analysis of the Gap Between Media Narratives and Public Sentiment During Bangladesh's July Revolution",
         "authors": "Abhijit Paul, Tanvir Hasan Abir, Siam Rahman, Dr. Shebuti Rayana, Dr. Ahmedul Kabir, Zarif Masud",
@@ -28,7 +39,7 @@
         "description": "Examines the temporal divergence between media narratives and public sentiment during Bangladesh’s July Revolution by analyzing over 10,000 Reddit posts and news articles from five mainstream Bangladeshi newspapers, utilizing computational sentiment analysis to identify discrepancies in focus and tone."
     },
     {
-        "id": 4,
+        "id": 5,
         "year": 2025,
         "title": "State-of-the-Art Translation of Text-to-Gloss using mBART : A case study of Bangla",
         "authors": "Sharif Md. Abdullah, Abhijit Paul, Dr. Shebuti Rayana, Dr. Ahmedul Kabir, Zarif Masud",
@@ -37,7 +48,7 @@
         "description": "Proposes a state-of-the-art methodology for text-to-gloss translation, a critical component of the text-to-sign translation pipeline, leveraging mBART to enhance the accuracy and efficiency of translating Bangla text into gloss for sign language applications."
     },
     {
-        "id": 5,
+        "id": 6,
         "year": 2024,
         "title": "Where Journalism Silenced Voices: Exploring Discrimination in the Representation of Indigenous Communities in Bangladesh",
         "authors": "Abhijit Paul, Adity Khisa, Sharif Md. Abdullah, Zarif Masud, Dr. Ahmedul Kabir, Dr. Shebuti Rayana",
@@ -46,7 +57,7 @@
         "description": "Analyzes media representation biases against indigenous minorities using machine learning and sociological frameworks."
     },
     {
-        "id": 6,
+        "id": 7,
         "year": 2023,
         "title": "Bengali Document Layout Analysis -- A YOLOV8 Based Ensembling Approach",
         "authors": "Nazmus Sakib Ahmed, Saad Sakib Noor, Ashraful Islam Shanto Sikder, Abhijit Paul",
@@ -55,7 +66,7 @@
         "description": "Experimentation results on Bangla Document Layout Analysis on the BadLaD dataset in DLSprint’23 where we placed 2nd."
     },
     {
-        "id": 7,
+        "id": 8,
         "year": 2023,
         "title": "Stemming: Evolution and Current State with Focus on Bangla",
         "authors": "Abhijit Paul, Mashiat Amin Farin, Sharif Md. Abdullah, Zarif Masud, Dr. Ahmedul Kabir, Dr. Shebuti Rayana",
@@ -64,7 +75,7 @@
         "description": "Comprehensive review of stemming methods with a focus on Bangla, highlighting linguistic challenges and future directions."
     },
     {
-        "id": 8,
+        "id": 9,
         "year": 2023,
         "title": "Exploring Diverse Coping Mechanisms in 2023: A Comprehensive Survey Across Backgrounds and Cultures",
         "authors": "Abhijit Paul, Rony Majumder",
@@ -72,16 +83,7 @@
         "pdf": "https://arxiv.org/abs/2307.16878",
         "description": "Collected a dataset of coping mechanisms across culture for Gen-Z and Gen-Alpha age group. The findings provided interesting insight on the types of coping mechanism."
     }
-    ,
-    {
-        "id": 9,
-        "year": 2026,
-        "date": "2026-05-02",
-        "title": "Breaking the Silence: A Dataset and Benchmark for Bangla Text-to-Gloss Translation",
-        "authors": "Sharif Mohammad Abdullah, Abhijit Paul, Shubhashis Roy Dipta, Zarif Masud, Shebuti Rayana, Ahmedul Kabir",
-        "publishedIn": "Accepted to MeLLM 2026 (arXiv v3, 2026-05-02)",
-        "pdf": "https://arxiv.org/pdf/2504.02293",
-        "description": "We introduce the first Bangla text-to-gloss dataset: 1,000 manually annotated and 4,000 synthetically generated sentence–gloss pairs, with 159 expert-annotated test pairs. We benchmark several fine-tuned open-source models against a leading closed-source LLM; GPT-5.4 attains the best automatic scores, a fine-tuned mBART model performs competitively despite much smaller size, and Qwen-3 ranks highest in human evaluation. The work demonstrates the effectiveness of systematically generated synthetic data for low-resource Bangla Sign Language translation and releases the dataset and trained models to accelerate future research."
-    }
+    
+  
     
 ]
