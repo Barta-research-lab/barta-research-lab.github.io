@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "title": "BARTA Research Lab Workshop 2025",
+        "location": "IIT, University of Dhaka",
+        "date": "2025-11-08",
+        "images": [
+            "/assets/events/workshop1/workshop-2025-01.jpeg",
+            "/assets/events/workshop1/workshop-2025-02.jpeg",
+            "/assets/events/workshop1/workshop-2025-03.jpeg",
+            "/assets/events/workshop1/workshop-2025-04.jpeg",
+            "/assets/events/workshop1/workshop-2025-05.jpeg",
+            "/assets/events/workshop1/workshop-2025-06.jpeg",
+            "/assets/events/workshop1/workshop-2025-07.jpeg",
+            "/assets/events/workshop1/workshop-2025-08.jpeg",
+            "/assets/events/workshop1/workshop-2025-09.jpeg",
+            "/assets/events/workshop1/workshop-2025-10.jpeg",
+            "/assets/events/workshop1/workshop-2025-11.jpeg",
+            "/assets/events/workshop1/workshop-2025-12.jpeg",
+            "/assets/events/workshop1/workshop-2025-13.jpeg",
+            "/assets/events/workshop1/workshop-2025-14.jpeg",
+            "/assets/events/workshop1/workshop-2025-15.jpeg",
+            "/assets/events/workshop1/workshop-2025-16.jpeg",
+            "/assets/events/workshop1/workshop-2025-17.jpeg",
+            "/assets/events/workshop1/workshop-2025-18.jpeg",
+            "/assets/events/workshop1/workshop-2025-19.jpeg"
+        ],
+        "description": "Course conducted on Bangla Natural Language Processing and building small language models, with hands-on sessions"
+    }
+]
+
