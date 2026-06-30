@@ -29,7 +29,7 @@ const CourseCard = ({ course, openSyllabus }) => {
             </p>
           ) : (
             <p className="text-gray-500 italic font-nunito text-sm">
-              No description available for this course yet.
+              No description available for this workshop yet.
             </p>
           )}
         </div>

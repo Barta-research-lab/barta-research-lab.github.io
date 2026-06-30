@@ -223,5 +223,83 @@
     "linkedin": "https://www.linkedin.com/in/mashiataminfarin/",
     "role": "Alumni",
     "image": "/assets/Meet_with_the_teams/sampad.png"
+  },
+   {
+    "name": "Redowan Sami",
+    "workplace": "IIT, University of Dhaka",
+    "position": "Undergrad Student",
+    "email": "bsse1409@iit.du.ac.bd",
+   
+    "github": "https://github.com/thabir303",
+    "linkedin": "https://www.linkedin.com/in/tanvir-hasan-abir-30219b264",
+    "role": "Undergrad Researcher",
+    "image": "/assets/Meet_with_the_teams/sami.jpeg"
+  },
+  {
+    "name": "Nandan Bhowmick",
+    "workplace": "IIT, University of Dhaka",
+    "position": "Undergrad Student",
+    "email": "bsse1409@iit.du.ac.bd",
+    
+    "github": "https://github.com/thabir303",
+    "linkedin": "https://www.linkedin.com/in/tanvir-hasan-abir-30219b264",
+    "role": "Undergrad Researcher",
+    "image": "/assets/Meet_with_the_teams/nandan.jpeg"
+  },
+  {
+    "name": "Mohammad Yasin",
+    "workplace": "IIT, University of Dhaka",
+    "position": "Undergrad Student",
+    "email": "bsse1409@iit.du.ac.bd",
+    
+    "github": "https://github.com/thabir303",
+    "linkedin": "https://www.linkedin.com/in/tanvir-hasan-abir-30219b264",
+    "role": "Undergrad Researcher",
+    "image": "/assets/Meet_with_the_teams/yasin.jpeg"
+  },
+  {
+    "name": "Md. Rony Rahman",
+    "workplace": "IIT, University of Dhaka",
+    "position": "Undergrad Student",
+    "email": "bsse1409@iit.du.ac.bd",
+   
+    "github": "https://github.com/rony1509",
+    "linkedin": "www.linkedin.com/in/mdrony-rahman",
+    "role": "Undergrad Researcher",
+    "image": "/assets/Meet_with_the_teams/Rony.jpeg"
+  },
+  {
+    "name": "Tarek Jamil Adnan",
+    "workplace": "IIT, University of Dhaka",
+    "position": "Undergrad Student",
+    "email": "bsse1409@iit.du.ac.bd",
+    "googleScholar": "https://scholar.google.com/",
+    "github": "https://github.com/thabir303",
+    "linkedin": "https://www.linkedin.com/in/tanvir-hasan-abir-30219b264",
+    "role": "Undergrad Researcher",
+    "image": "/assets/Meet_with_the_teams/Adnan.jpeg"
+  },
+  {
+    "name": "Kazi Farhana",
+    "workplace": "IIT, University of Dhaka",
+    "position": "Undergrad Student",
+    "email": "bsse1409@iit.du.ac.bd",
+    "googleScholar": "https://scholar.google.com/",
+    "github": "https://github.com/thabir303",
+    "linkedin": "https://www.linkedin.com/in/tanvir-hasan-abir-30219b264",
+    "role": "Undergrad Researcher",
+    "image": "/assets/Meet_with_the_teams/Farhana.jpeg"
+  },
+  {
+    "name": "Turya Biswas",
+    "workplace": "IIT, University of Dhaka",
+    "position": "Undergrad Student",
+    "email": "bsse1507@iit.du.ac.bd",
+    
+    "github": "https://github.com/turyabiswas233",
+    "linkedin": "https://www.linkedin.com/in/turya-biswas-31418527b",
+    "role": "Undergrad Researcher",
+    "image": "/assets/Meet_with_the_teams/Turya.jpeg"
   }
+
 ]

@@ -30,7 +30,7 @@ const Courses = () => {
         <section className="bg-cream-primary">
             <div className="max-w-7xl mx-auto">
                 <h2 className="text-3xl font-bold font-nunito text-center text-gray-700 mb-10 lg:mb-16">
-                    Courses Offered
+                    Workshops Offered
                 </h2>
 
                 {courses.length > 0 ? (
@@ -45,7 +45,7 @@ const Courses = () => {
                     </div>
                 ) : (
                     <div className="bg-white rounded-lg shadow-md p-10 text-center">
-                        <p className="text-gray-600 font-nunito text-lg">No courses available</p>
+                        <p className="text-gray-600 font-nunito text-lg">No workshops available</p>
                     </div>
                 )}
             </div>
