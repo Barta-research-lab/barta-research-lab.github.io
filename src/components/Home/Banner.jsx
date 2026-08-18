@@ -3,7 +3,7 @@ import React from 'react';
 const Banner = () => {
     // Images from banner-page directory only
     const bannerImages = [
-        '/assets/banner-page/april-25.png'
+        '/assets/banner-page/July-30.jpg'
     ];
 
     return (
