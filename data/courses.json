@@ -1,10 +1,10 @@
 [
     {
         "title": "Building Small Language Model: From Foundations to Generation",
-        "description": "This course provides hands-on experience in building small language models. Students will learn the fundamentals of natural language processing, transformer architectures, and domain-specific model training.",
+        "description": "This workshop provides hands-on experience in building small language models. Students will learn the fundamentals of natural language processing, transformer architectures, and domain-specific model training.",
         "image": "/assets/projects/slm.png",
         "syllabus": {
-            "overview": "This course provides hands-on experience in building small language models specifically for Bangla financial text generation. Students will learn the fundamentals of natural language processing, transformer architectures, and domain-specific model training.",
+            "overview": "This workshop provides hands-on experience in building small language models specifically for Bangla financial text generation. Students will learn the fundamentals of natural language processing, transformer architectures, and domain-specific model training.",
             "learningObjectives": [
                 "Explain the fundamental concepts of language models, their applications, and why small language models are important.",
                 "Implement efficient tokenization and binary data storage for high-performance training.",
