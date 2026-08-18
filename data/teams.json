@@ -185,7 +185,7 @@
   {
     "name": "Tanvir Hasan Abir",
     "workplace": "IIT, University of Dhaka",
-    "position": "Undergrad Student",
+    "position": "MSSE",
     "email": "bsse1321@iit.du.ac.bd",
     "googleScholar": "https://scholar.google.com/",
     "github": "https://github.com/thabir303",
@@ -229,9 +229,8 @@
     "workplace": "IIT, University of Dhaka",
     "position": "Undergrad Student",
     "email": "bsse1409@iit.du.ac.bd",
-   
-    "github": "https://github.com/thabir303",
-    "linkedin": "https://www.linkedin.com/in/tanvir-hasan-abir-30219b264",
+    "github": "https://github.com/redowansami",
+    "linkedin": "https://www.linkedin.com/in/redowan-billah-sami/",
     "role": "Undergrad Researcher",
     "image": "/assets/Meet_with_the_teams/sami.jpeg"
   },
@@ -239,10 +238,9 @@
     "name": "Nandan Bhowmick",
     "workplace": "IIT, University of Dhaka",
     "position": "Undergrad Student",
-    "email": "bsse1409@iit.du.ac.bd",
-    
-    "github": "https://github.com/thabir303",
-    "linkedin": "https://www.linkedin.com/in/tanvir-hasan-abir-30219b264",
+    "email": "bsse1436@iit.du.ac.bd", 
+    "github": "https://github.com/Nandan1436",
+    "linkedin": " https://www.linkedin.com/in/nandan-bhowmick/",
     "role": "Undergrad Researcher",
     "image": "/assets/Meet_with_the_teams/nandan.jpeg"
   },
@@ -250,10 +248,9 @@
     "name": "Mohammad Yasin",
     "workplace": "IIT, University of Dhaka",
     "position": "Undergrad Student",
-    "email": "bsse1409@iit.du.ac.bd",
-    
-    "github": "https://github.com/thabir303",
-    "linkedin": "https://www.linkedin.com/in/tanvir-hasan-abir-30219b264",
+    "email": "bsse1406@iit.du.ac.bd",
+    "github": "https://github.com/Yasin1406",
+    "linkedin": "https://www.linkedin.com/in/mohammed-yasin-345a14364/",
     "role": "Undergrad Researcher",
     "image": "/assets/Meet_with_the_teams/yasin.jpeg"
   },
@@ -261,10 +258,10 @@
     "name": "Md. Rony Rahman",
     "workplace": "IIT, University of Dhaka",
     "position": "Undergrad Student",
-    "email": "bsse1409@iit.du.ac.bd",
+    "email": "bsse1509@iit.du.ac.bd",
    
     "github": "https://github.com/rony1509",
-    "linkedin": "www.linkedin.com/in/mdrony-rahman",
+    "linkedin": "https://www.linkedin.com/in/mdrony-rahman",
     "role": "Undergrad Researcher",
     "image": "/assets/Meet_with_the_teams/Rony.jpeg"
   },
@@ -272,10 +269,9 @@
     "name": "Tarek Jamil Adnan",
     "workplace": "IIT, University of Dhaka",
     "position": "Undergrad Student",
-    "email": "bsse1409@iit.du.ac.bd",
-    "googleScholar": "https://scholar.google.com/",
-    "github": "https://github.com/thabir303",
-    "linkedin": "https://www.linkedin.com/in/tanvir-hasan-abir-30219b264",
+    "email": "bsse1520@iit.du.ac.bd",
+    "github": "https://github.com/tjadnan1520",
+    "linkedin": "www.linkedin.com/in/tjadnan",
     "role": "Undergrad Researcher",
     "image": "/assets/Meet_with_the_teams/Adnan.jpeg"
   },
@@ -283,10 +279,9 @@
     "name": "Kazi Farhana",
     "workplace": "IIT, University of Dhaka",
     "position": "Undergrad Student",
-    "email": "bsse1409@iit.du.ac.bd",
-    "googleScholar": "https://scholar.google.com/",
-    "github": "https://github.com/thabir303",
-    "linkedin": "https://www.linkedin.com/in/tanvir-hasan-abir-30219b264",
+    "email": "bsse1506@iit.du.ac.bd",
+    "github": " https://github.com/Farhana-Faruque",
+    "linkedin": " https://www.linkedin.com/in/kazi-farhana-faruque/",
     "role": "Undergrad Researcher",
     "image": "/assets/Meet_with_the_teams/Farhana.jpeg"
   },
@@ -300,6 +295,17 @@
     "linkedin": "https://www.linkedin.com/in/turya-biswas-31418527b",
     "role": "Undergrad Researcher",
     "image": "/assets/Meet_with_the_teams/Turya.jpeg"
-  }
+  },
+   {
+    "name":"Mahmudul Hasan Tanvir",
+    "workplace":"IIT, University of Dhaka",
+    "position":"Undergrad Student",
+    "email":"bsse1514@iit.du.ac.bd",
+    "github":"https://github.com/tanvir-gellar-du",
+    "linkedin":"https://www.linkedin.com/in/mahmudul-tanvir/",
+    "role":"Undergrad Researcher",
+    "image":"/assets/Meet_with_the_teams/M_Tanvir1514.jpg"
+
+   }
 
 ]
