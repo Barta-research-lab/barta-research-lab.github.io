@@ -1,7 +1,14 @@
 const LatestNews = () => {
   const news = [
     {
-       id: 15,
+      id: 16,
+      title: "Dr. Kabir speaks at Chittagong University",
+      date: "2026-08-20",
+      category: "Conference",
+      summary: "Our Co-Director Dr. Ahmedul Kabir delivered an invited talk on \u201cLanguage Studies and AI Language Models: A Two-way Conversation\u201d at a seminar held at the University of Chittagong (CU) on 20 August, 2026. The theme of the seminar was \u201cLanguage Studies in the Era of Artificial Intelligence\u201d and it was arranged by the Institute of Modern Languages (IML), CU."
+    },
+    {
+      id: 15,
       title: "Paper Accepted to MeLLM 2026",
       date: "2026-05-02",
       category: "Publication",

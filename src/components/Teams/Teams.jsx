@@ -51,11 +51,12 @@ const Teams = () => {
     };
 
     // Define the order of sections
-    const sectionOrder = ['Co-Director', 'Mentor', 'Research Fellow', 'Researchers', 'Alumni'];
+    const sectionOrder = ['Co-Director', 'Co-Founder', 'Mentor', 'Research Fellow', 'Researchers', 'Alumni'];
 
     const getRoleHeader = (section) => {
         const roleHeaders = {
             'Co-Director': 'Co-Directors',
+            'Co-Founder': 'Co-Founders',
             'Mentor': 'Mentors',
             'Research Fellow': 'Research Fellows',
             'Researchers': 'Researchers',
