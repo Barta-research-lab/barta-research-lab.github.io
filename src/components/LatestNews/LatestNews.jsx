@@ -4,17 +4,24 @@ const LatestNews = () => {
       id: 16,
       title: "Dr. Kabir speaks at Chittagong University",
       date: "2026-08-20",
-      category: "Conference",
+      category: "Seminar Talk",
       summary: "Our Co-Director Dr. Ahmedul Kabir delivered an invited talk on \u201cLanguage Studies and AI Language Models: A Two-way Conversation\u201d at a seminar held at the University of Chittagong (CU) on 20 August, 2026. The theme of the seminar was \u201cLanguage Studies in the Era of Artificial Intelligence\u201d and it was arranged by the Institute of Modern Languages (IML), CU."
     },
     {
-      id: 15,
-      title: "Paper Accepted to MeLLM 2026",
-      date: "2026-05-02",
+      id: 18,
+      title: "Paper Accepted to AACL 2026",
+      date: "2026-10-15",
       category: "Publication",
-      summary: "BARTA Research Lab's paper \"Breaking the Silence: A Dataset and Benchmark for Bangla Text-to-Gloss Translation\" (Sharif Mohammad Abdullah, Abhijit Paul, Shubhashis Roy Dipta, Zarif Masud, Shebuti Rayana, Ahmedul Kabir) was accepted to MeLLM 2026 (arXiv v3, 2026-05-02)."
+      summary: "BARTA Research Lab's paper \"Breaking the Silence: A Dataset and Benchmark for Bangla Text-to-Gloss Translation\" by Sharif Mohammad Abdullah, Abhijit Paul, Shubhashis Roy Dipta, Zarif Masud, Dr. Shebuti Rayana, and Dr. Ahmedul Kabir has been accepted to AACL 2026."
     },
-    
+    {
+      id: 17,
+      title: "BARTA Members Abhijit Paul and Sampad Shikdar Join Purdue University",
+      date: "2026-08-15",
+      category: "Alumni",
+      summary: "BARTA Lead Researcher Abhijit Paul and alumnus Sampad Shikdar have joined the PhD program at Purdue University."
+    },
+
     {
       id: 14,
       title: "Dr. Ahmedul Kabir Presents at IMLI International Seminar",

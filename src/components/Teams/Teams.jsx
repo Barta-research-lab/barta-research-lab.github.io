@@ -35,7 +35,8 @@ const Teams = () => {
     const groupTeamsByRole = (teamList) => {
         const grouped = {};
         teamList.forEach(member => {
-            const primaryRole = getPrimaryRole(member);
+            // An explicit "section" overrides role-based grouping (e.g. Co-Founders)
+            const primaryRole = member.section || getPrimaryRole(member);
             // Combine Lead Researcher and Undergrad Researcher under "Researchers"
             let displayRole = primaryRole;
             if (primaryRole === 'Lead Researcher' || primaryRole === 'Undergrad Researcher') {
@@ -51,7 +52,7 @@ const Teams = () => {
     };
 
     // Define the order of sections
-    const sectionOrder = ['Co-Director', 'Co-Founder', 'Mentor', 'Research Fellow', 'Researchers', 'Alumni'];
+    const sectionOrder = ['Co-Founder', 'Co-Director', 'Mentor', 'Research Fellow', 'Researchers', 'Alumni'];
 
     const getRoleHeader = (section) => {
         const roleHeaders = {

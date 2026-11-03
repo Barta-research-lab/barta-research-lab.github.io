@@ -6,6 +6,7 @@
     "email": "kabir@iit.du.ac.bd",
     "googleScholar": "https://scholar.google.com/citations?user=87fwkNAAAAAJ&hl=en",
     "linkedin": "https://www.linkedin.com/in/ahmedul-kabir-90469134/",
+    "section": "Co-Founder",
     "role": "Co-Director",
     "image": "/assets/Meet_with_the_teams/Dr_Ahmedul_Kabir.jpg"
   },
@@ -16,6 +17,7 @@
     "email": "rayanas@oldwestbury.edu",
     "googleScholar": "https://scholar.google.com/citations?user=kAKUiukAAAAJ&hl=en",
     "linkedin": "https://www.linkedin.com/in/shebuti-rayana-727a5641/",
+    "section": "Co-Founder",
     "role": "Co-Director",
     "image": "/assets/Meet_with_the_teams/Shebuty_Rayana.jpg"
   },
@@ -26,7 +28,8 @@
     "email": "zarif.masud@gmail.com",
     "googleScholar": "https://scholar.google.com/citations?user=AjSsN60AAAAJ&hl=en",
     "linkedin": "https://www.linkedin.com/in/zarifmasud/",
-    "roles": ["Co-Founder", "Mentor"],
+    "section": "Co-Founder",
+    "role": "Mentor",
     "image": "/assets/Meet_with_the_teams/Zarif_Masud.jpg"
   },
   {
