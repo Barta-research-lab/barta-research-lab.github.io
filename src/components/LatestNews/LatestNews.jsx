@@ -11,6 +11,7 @@ const LatestNews = () => {
       id: 18,
       title: "Paper Accepted to AACL 2026",
       date: "2026-10-15",
+      priority: 2,
       category: "Publication",
       summary: "BARTA Research Lab's paper \"Breaking the Silence: A Dataset and Benchmark for Bangla Text-to-Gloss Translation\" by Sharif Mohammad Abdullah, Abhijit Paul, Shubhashis Roy Dipta, Zarif Masud, Dr. Shebuti Rayana, and Dr. Ahmedul Kabir has been accepted to AACL 2026."
     },
@@ -18,6 +19,7 @@ const LatestNews = () => {
       id: 17,
       title: "BARTA Members Abhijit Paul and Sampad Shikdar Join Purdue University",
       date: "2026-08-15",
+      priority: 1,
       category: "Alumni",
       summary: "BARTA Lead Researcher Abhijit Paul and alumnus Sampad Shikdar have joined the PhD program at Purdue University."
     },
@@ -131,9 +133,9 @@ const LatestNews = () => {
     return new Date(dateString).toLocaleDateString('en-US', options);
   };
 
-  // Sort news by date in descending order (most recent first)
+  // Items with a higher "priority" are pinned to the top; the rest are sorted by date (most recent first)
   const sortedNews = [...news].sort((a, b) => {
-    return new Date(b.date) - new Date(a.date);
+    return (b.priority || 0) - (a.priority || 0) || new Date(b.date) - new Date(a.date);
   });
 
   return (

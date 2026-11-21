@@ -37,9 +37,9 @@ const Teams = () => {
         teamList.forEach(member => {
             // An explicit "section" overrides role-based grouping (e.g. Co-Founders)
             const primaryRole = member.section || getPrimaryRole(member);
-            // Combine Lead Researcher and Undergrad Researcher under "Researchers"
+            // Combine Lead, Graduate and Undergrad Researchers under "Researchers"
             let displayRole = primaryRole;
-            if (primaryRole === 'Lead Researcher' || primaryRole === 'Undergrad Researcher') {
+            if (['Lead Researcher', 'Graduate Researcher', 'Undergrad Researcher'].includes(primaryRole)) {
                 displayRole = 'Researchers';
             }
             

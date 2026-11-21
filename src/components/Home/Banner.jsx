@@ -2,12 +2,9 @@ import React, { useEffect, useState } from 'react';
 
 // To add photos: drop them in public/assets/banner-page/ and list them here.
 const bannerImages = [
-    '/assets/banner-page/July-30.jpg',
-    '/assets/events/workshop1/workshop-2025-01.jpeg',
-    '/assets/events/workshop1/workshop-2025-02.jpeg',
-    '/assets/events/workshop1/workshop-2025-03.jpeg',
-    '/assets/events/workshop1/workshop-2025-04.jpeg',
-    '/assets/events/workshop1/workshop-2025-05.jpeg',
+    '/assets/banner-page/July-30.jpg',                  // Group photo
+    '/assets/events/workshop1/workshop-2025-01.jpeg',   // Lia giving a lecture
+    '/assets/events/workshop1/workshop-2025-05.jpeg',   // Farhana receiving her certificate
 ];
 
 const AUTOPLAY_MS = 5000;
@@ -28,7 +25,7 @@ const Banner = () => {
     return (
         <div className='bg-transparent'>
             <div
-                className="relative w-full overflow-hidden rounded-md aspect-video bg-gray-100"
+                className="relative w-full overflow-hidden rounded-md aspect-[4/3] bg-gray-100"
                 onMouseEnter={() => setPaused(true)}
                 onMouseLeave={() => setPaused(false)}
             >
@@ -37,7 +34,7 @@ const Banner = () => {
                         key={image}
                         src={image}
                         alt={`Moments at BARTA ${index + 1}`}
-                        className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${index === current ? 'opacity-100' : 'opacity-0'}`}
+                        className={`absolute inset-0 w-full h-full object-contain transition-opacity duration-700 ${index === current ? 'opacity-100' : 'opacity-0'}`}
                     />
                 ))}
 
